@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="cart">  
+            <div class="item" id="product1">
+                <img src="c:\Users\pc\Desktop\shopchekcpnt\1.jpg">
+                <div class="btmsec1">
+                    <span> Product 1 </span>
+                </div>
+                <div class="btmsec2">
+                    <button class="quantity-btn" onclick="adjustQuantity('product1', -1)">-</button>
+                    <span id="product1-quantity"> 0 </span>
+                    <button class="quantity-btn" onclick="adjustQuantity('product1', 1)">+</button>
+                    <button onclick="removeItem('product1')">Remove</button>
+                    <button class="like-btn">❤️</button>
+                </div>
+                <div class="btmsec3">
+                    <span id="product1-price">Price; 20$ </span>
+                </div>
+            </div>
+            <div class="item" id="product2">
+                <img src="c:\Users\pc\Desktop\shopchekcpnt\2.jpg">
+                <div class="btmsec1">
+                    <span> Product 2 </span>
+                </div>
+                <div class="btmsec2">
+                    <button class="quantity-btn" onclick="adjustQuantity('product2', -1)">-</button>
+                    <span id="product2-quantity"> 0 </span>
+                    <button class="quantity-btn" onclick="adjustQuantity('product2', 1)">+</button>
+                    <button onclick="removeItem('product2')">Remove</button>
+                    <button class="like-btn">❤️</button>
+                </div>
+                <div class="btmsec3">
+                    <span id="product2-price">Price; 30$ </span>
+                </div>
+            </div>
+            <div class="item" id="product3">
+                <img src="c:\Users\pc\Desktop\shopchekcpnt\3.jpg">
+                <div class="btmsec1">
+                    <span> Product 3 </span>
+                </div>
+                <div class="btmsec2">
+                    <button class="quantity-btn" onclick="adjustQuantity('product3', -1)">-</button>
+                    <span id="product3-quantity"> 0 </span>
+                    <button class="quantity-btn" onclick="adjustQuantity('product3', 1)">+</button>
+                    <button onclick="removeItem('product3')">Remove</button>
+                    <button class="like-btn">❤️</button>
+                </div>
+                <div class="btmsec3">
+                    <span id="product3-price">Price; 40$ </span>
+                </div>
+            </div>
+        </div>
+        <div id="total">Total price : </div>
+        <script src="Script.js"></script>
+    </body>
+</html>

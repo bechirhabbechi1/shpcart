@@ -1,0 +1,38 @@
+
+
+
+.cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    border: 50px;
+    flex-direction: column;
+}
+.btmsec1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 25px;
+}
+.btmsec2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 25px;
+}
+.btmsec3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 25px;
+}
+
+#total{
+    text-align: center;
+    margin: 50px;
+}
